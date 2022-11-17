@@ -40,6 +40,9 @@ namespace Lab5_302.Pages.AnswerImages
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync(IFormFile file)
         {
+            if (file == null) {
+                return Page();
+            }
             var q = AnswerImage.Question.ToString();
             BlobContainerClient containerClient;
             string option;

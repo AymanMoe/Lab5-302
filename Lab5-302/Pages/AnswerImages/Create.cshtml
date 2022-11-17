@@ -16,9 +16,9 @@
             <div class="form-group">
                 <input type="radio" asp-for="AnswerImage.Question" id="computer" value="Computer"/>
                 <label for="computer">What will the computers look like in 20 years?</label>
-                <input type="radio" asp-for="AnswerImage.Question" value="Earth">
+                <input type="radio" asp-for="AnswerImage.Question" value="Earth" checked="checked">
                 <label for="earth">What will the earth look like in 20 years?</label>
-                <input name="file" type="file">
+                <input name="file" type="file" required>
                 <span asp-validation-for="AnswerImage.Question" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -11,5 +11,6 @@
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_DbContextTypeFullName>Lab5_302.Data.AnswerImageDataContext</WebStackScaffolding_DbContextTypeFullName>
+    <NameOfLastUsedPublishProfile>C:\Users\Ayman\source\repos\Lab5-302\Lab5-302\Properties\PublishProfiles\AymanLab5 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
